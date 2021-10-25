@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  padding:60px;
+}
+input{
+  display:block;
+  width:50%;
+  font-size:1.2rem;
+  outline:none;
+  padding:0 5px;
+  border:3px solid #DDD;
+  border-radius:4px;
+  transition:.4s;
+  margin-bottom:15px;
+  
+}
+input[type="text2"]:focus{
+   border:3px solid #f80000;
+}
+input[type="text"]:focus{
+  border:3px solid #26AEaF;
+
+}
+label{
+  font-weight:bold;
+}
+.boton{
+  padding:6px 12px;
+  border:none;
+  width:12%;
+  font-weight:bold;
+  color:#fff;
+  background:#f80000;
+  cursor: pointer;
+  text-transform:uppercase;
+  border-radius:4px;
+  font-size:1em;
+}
+.boton:hover{
+  background:#F77272;
+}
+.card{
+  margin-right:15px;
+}
+.card-img{
+  display:block;
+  align-content:center;
+  border-radius:6px;
+  overflow: hidden;
+  margin: 10px 10px 0 0;
+  box-shadow:0 0 5px 3px #26AEaF;
+  margin:auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p{
+  text-align:center;
+}
+h3{
+  text-align:center;
+}
+.card-grid{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
 }
