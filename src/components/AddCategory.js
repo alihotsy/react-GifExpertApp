@@ -22,6 +22,7 @@ const useMyInput = (setCategories) =>{
     }
     const handleSubmit = (e) =>{
         e.preventDefault();
+        
     }
     return {
         handleInputChange,
@@ -36,6 +37,7 @@ export const AddCategory = ({setCategories}) => {
     const input2 = useMyInput(setCategories);
     return (
         <form onSubmit = {handleSubmit}> 
+            <p>{input1.inputValue}</p>
             <label>Ingresa una serie:</label>
             <input
              className = "input1"

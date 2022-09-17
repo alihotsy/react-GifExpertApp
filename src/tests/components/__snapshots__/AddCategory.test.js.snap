@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AddCategory/> Debe de mostrarse correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p />
+  <label>
+    Ingresa una serie:
+  </label>
+  <input
+    className="input1"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    type="text"
+    value=""
+  />
+  <label>
+    Borra una serie de la lista:
+  </label>
+  <input
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    type="text2"
+    value=""
+  />
+  <button
+    className="boton"
+  >
+    Borrar
+  </button>
+</form>
+`;
